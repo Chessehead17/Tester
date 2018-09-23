@@ -1,0 +1,16 @@
+{
+	"name": "Tab override",
+	"version": "0.1.1",
+	"manifest_version": 2,
+	"description": "New tab override",
+	"content_scripts": [
+		{
+			"matches": ["file:///C:/Dev/Startpage/*"],
+			"css": ["start.css"],
+			"js": ["start.js"]
+		}
+	],
+	"chrome_url_overrides": { 
+		"newtab": "start.html" 
+	}
+}

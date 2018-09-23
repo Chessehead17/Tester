@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Home</title>
+
+	<meta name="description" content="New tab page">
+	<meta name="keywords" content="HTML, CSS, JavaScript, Startpage">
+	<meta name="author" content="MSDVVR">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- red       : #A92F41
+         whiteish  : #E5DFC5
+         brownish  : #B48375
+         Aquagreen : #91C7A9
+         Black     : #252120    -->
+	<link rel="stylesheet" type="text/css" href="start.css">
+  </head>
+
+  <body>
+	<div id="background"></div>
+	<div class="center-wrapper">
+
+	  <div class="time-clock">
+		<div class="time-middle-spaced">
+		  <span id="cur_greeting" style="float:left;padding-left:15px"></span>
+		  <span id="cur_date" style="float:right;padding-right:15px"></span>
+		</div>
+	  </div>
+	  <header>
+
+		<div class="header-bottom">
+		  <div class="search-container">
+			<input id="searchBar" type="text" placeholder="Search">
+		  </div>
+		</div>
+	  </header>
+
+	  <div class="center-middle">
+		<div class="center-middle-spaced">
+
+		  <nav>
+			<div class="button-space-remove"><button id="btn1" class="menu-button">About</button></div>
+			<div class="button-space-remove"><button id="btn2" class="menu-button">Music</button></div>
+			<div class="button-space-remove"><button id="btn3" class="menu-button">Favorites</button></div>
+			<div class="button-space-remove"><button id="btn4" class="menu-button">Progamming</button></div>
+			<div class="button-space-remove"><button id="btn5" class="menu-button">Scratch Pad</button></div>
+		  </nav>
+
+		  <div class="main-container" style="display: none;" id="main1">
+
+			<!-- TODO: extract this into var js -->
+			<!-- <div class="container-wrap"> -->
+			<!--   <div class="container-wrap-half" style="position: relative"> -->
+			<!-- 	<\!-- works find the rose image -\-> -->
+			<!-- 	<\!-- <img alt="rose" src="logo.png" class="logo-center"/> -\-> -->
+			<!--   </div> -->
+			<!--   <div class="container-wrap-half"> -->
+			<!-- 	<\!-- <div class="bookmark-group-title">Screen fetch type info here</div> -\-> -->
+			<!-- 	<div style="padding-top: 25px;"></div> -->
+			<!-- 	<div class="padded-sop" style="color: white"> -->
+			<!-- 	  <div class="sop"> -->
+			<!-- 		<span class="about-line"> -->
+			<!-- 		  <p class="about-text">msdvvr</p>@<p class="about-text">browser</p> -->
+			<!-- 		</span> -->
+			<!-- 		<span class="about-line"> -->
+			<!-- 		  <p class="about-text">Author:</p> msdvvr</span> -->
+			<!-- 		<span class="about-line"> -->
+			<!-- 		  <p class="about-text">Github:</p> </span> -->
+			<!-- 		<span class="about-line"> -->
+			<!-- 		  <p class="about-text">Revision:</p> v1.0</span> -->
+			<!-- 		<span class="about-line"> -->
+			<!-- 		  <p class="about-text">Resolution:</p> 1920x1080</span> -->
+			<!-- 		<span class="about-line"> -->
+			<!-- 		  <p class="about-text">Info:</p> </span> -->
+			<!-- 	  </div> -->
+			<!-- 	</div> -->
+			<!--   </div> -->
+			<!-- </div> -->
+
+			<div class="container-wrap">
+			  <div style="color: white">
+				<div style="text-align: center;font-size: 1.3em;color: cyan;">Search Bar Options</div>
+
+				<div class="padded-sop" style="padding-top: 15px;">
+				  <!-- TODO: Add event listener, tab goes to search while typing stays in omnibox -->
+				  <div class="padded-sop-group">
+					<div class="sop"><span class="about-sop">-a</span><span>amazon.ca</span></div>
+					<div class="sop"><span class="about-sop">-y</span><span>youtube.com</span></div>
+					<div class="sop"><span class="about-sop">-w</span><span>wikipedia.org</span></div>
+					<div class="sop"><span class="about-sop">-wa</span><span>wolframalpha.com</span></div>
+					<div class="sop"><span class="about-sop">-r</span><span>reddit.com/r/</span></div>
+				  </div>
+
+				  <div class="padded-sop-group">
+					<div class="sop"><span class="about-sop">-gh</span><span>github.com</span></div>
+					<div class="sop"><span class="about-sop">-so</span><span>stackoverflow.com</span></div>
+				  </div>
+
+				  <div class="padded-sop-group">
+					<div class="sop"><span class="about-sop">-i</span><span>images.google.com</span></div>
+					<div class="sop"><span class="about-sop">-d</span><span>duckduckgo.com</span></div>
+					<div class="sop"><span class="about-sop">-b</span><span>bing.com</span></div>
+					<div class="sop"><span class="about-sop">-bi</span><span>bing.com/images</span></div>
+				  </div>
+
+				</div>
+
+			  </div>
+			</div>
+
+		  </div>
+
+		  <div class="main-container" style="display: none;" id="main2"></div>
+		  <div class="main-container" style="display: block;" id="main3"></div>
+		  <div class="main-container" style="display: none;" id="main4"></div>
+
+		  <!-- <div class="main-container" style="display: none;" id="rss"> -->
+		  <!-- 	<textarea placeholder="TODO: RSS feed maybe"></textarea> -->
+		  <!-- </div> -->
+
+		  <!-- TODO: maybe make the notes persistant -->
+		  <div class="main-container" style="display: none;" id="main5">
+			<textarea placeholder="Scratch pad..."></textarea>
+		  </div>
+
+		</div>
+	  </div>
+
+	</div>
+
+	<!-- Javascript -->
+	<script src="var.js"></script>
+	<script src="start.js"></script>
+
+  </body>
+</html>

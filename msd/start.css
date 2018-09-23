@@ -1,0 +1,347 @@
+html,
+body
+{
+	font-family: "Segoe UI", Tahoma, sans-serif;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+#background
+{
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	background: fixed center / cover;
+	position: fixed;
+
+	transform: scale(1.02);
+
+	-webkit-filter: blur(5px);
+	-moz-filter: blur(5px);
+	-o-filter: blur(5px);
+	-ms-filter: blur(5px);
+	filter: blur(5px);
+}
+
+body
+{
+	background: #111111;
+}
+
+.center-wrapper
+{
+	height: 100%;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.time-clock
+{
+	width: 100%;
+ 	height: 5%;
+	/* position: relative; */
+	/* margin: 0 auto; */
+}
+
+.time-middle-spaced
+{
+	color: red;
+	font-size: 28px;
+
+	width: 95%;
+	height: 95%;
+
+	display: block;
+	margin: auto;
+
+	background-color: #1F2326;
+
+	box-shadow: 0  2px  2px  0   rgba(0, 0, 0, 0.14),
+	0  3px  1px -2px rgba(0, 0, 0, 0.2),
+	0  1px  5px  0   rgba(0, 0, 0, 0.12);
+
+	opacity:0.90;
+}
+
+/* #clock */
+/* /\*,#cur_date						*\/ */
+/* { */
+/* 	display: block; */
+/* 	width: 95%; */
+/* 	height: 100%; */
+/* 	margin: 0 auto; */
+/* } */
+
+header
+{
+	width: 100%;
+	height: 10%;
+	position: relative;
+}
+
+.search-container
+{
+	height: 35px;
+	width: 95%;/* 600px; */
+	border: 3px solid #A92F41;
+	margin: 0 auto;
+}
+
+.header-spacing
+{
+	height: 50%;
+}
+
+.header-bottom
+{
+	width: 100%;
+	position: absolute;
+	bottom:0;
+	margin: 0 auto;
+}
+
+#search-options
+{
+	background-color: #1F2326;
+
+	/* box-shadow: 0  2px  2px  0   rgba(0, 0, 0, 0.14), */
+	/* 0  3px  1px -2px rgba(0, 0, 0, 0.2), */
+	/* 0  1px  5px  0   rgba(0, 0, 0, 0.12); */
+
+	/* opacity:0.90; */
+
+	height: 100%;
+
+	width: 25%;
+	color: white;
+	/* color: #7291A1; */
+	padding: 0;
+	border: none;
+	outline: none;
+
+	float: left;
+
+	text-align-last:center;
+
+	-moz-appearance: none; 	/* Removes discolored arrow from the menu*/
+}
+
+#searchBar
+{
+	background-color: #1F2326;
+
+	/* box-shadow: 0  2px  2px  0   rgba(0, 0, 0, 0.14), */
+	/* 0  3px  1px -2px rgba(0, 0, 0, 0.2), */
+	/* 0  1px  5px  0   rgba(0, 0, 0, 0.12); */
+
+	/* opacity:0.90; */
+
+	/* width: 75%; */
+
+	width: 100%;
+
+	height: 100%;
+	float: left;
+	text-align: center;
+	color: #7291A1;
+	padding: 0;
+	border: none;
+}
+
+.container-wrap
+{
+	height: 50%;
+	width: 100%;
+}
+
+.container-wrap-half
+{
+	height: 100%;
+	width: 50%;
+	float: left;
+}
+
+#searchBar input,
+#searchBar:focus
+{
+	border: none;
+	outline: none;
+	color: white;
+}
+
+.center-middle
+{
+	width: 100%;
+	height: 80%;
+}
+
+.center-middle-spaced
+{
+	width: 95%;
+	height: 95%;
+	margin: 15px;
+	margin: 15px auto;
+
+
+	/* background-color: #757571; */
+
+	box-shadow: 0  2px  2px  0   rgba(0, 0, 0, 0.14),
+	0  3px  1px -2px rgba(0, 0, 0, 0.2),
+	0  1px  5px  0   rgba(0, 0, 0, 0.12);
+
+	opacity:0.90;
+}
+
+nav
+{
+	width: 100%;
+	height: 5%;
+	position: relative;
+}
+
+.button-space-remove
+{
+	/* width: calc(100% / 7); */
+	width: calc(100% / 5);
+	height: 100%;
+	float: left;
+}
+
+.menu-button
+{
+	outline: none;
+	border: none;
+	width: 100%;
+	height: 100%;
+	float: left;
+	background: #F0F0F0;
+	color: white;/* #181712; */
+	background-color: black;
+	font-weight: bold;
+	/* opacity: 1; */
+}
+
+.main-container
+{
+	height: 95%;
+	width: 100%;
+	background-color: #1F2326;
+}
+
+.bookmark-group
+{
+	height: 33%;
+	width: 25%;
+	float: left;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.bookmark-margin
+{
+	height: 95%;
+	width: 95%;
+	margin: 5px auto;
+}
+
+a
+{
+	text-decoration: none;
+	color: #F0F0F0;
+}
+
+.bookmark-group-title
+{
+	color: #6ABED8;
+	border-bottom: 1px solid black;
+	text-align: center;
+	font-size: 1.3em;
+}
+
+.bookmark-link
+{
+	width: 100%;
+	text-align: center;
+}
+
+.bookmark-link:hover
+{
+	background: #A92F41;
+}
+
+textarea
+{
+	padding: 0;
+	margin: 0;
+	color: white;
+	background-color: #1F2326;
+	border: none;
+	outline: none;
+	width: 100%;
+	height: 100%;
+	resize: none;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 5px 5px 5px 5px;
+}
+
+/* search option */
+.sop
+{
+	/* width: 150px; */
+	height: 100%;
+	display: block;
+}
+
+.padded-sop
+{
+	height: 100%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.padded-sop-group
+{
+	height: 100%;
+	width: 33.33%;	/* fallback in case calc isn't supported */
+	width: calc(100% / 3);
+	float: left;
+	margin: auto;
+}
+
+.about-sop
+{
+	float: left;
+	clear: left;
+	width: 50px;
+}
+
+.about-text
+{
+	color: red;/* #A92F41; */
+	display: inline;
+	font-size: 15px;
+}
+
+.about-line
+{
+	float:left;
+	clear: left;
+	font-size: 15px;
+}
+
+.logo-center
+{
+	position: absolute;
+	margin: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+/* END */
