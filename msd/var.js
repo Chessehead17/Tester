@@ -3,7 +3,7 @@
 var dick = [
 	[ "Filler",
 	  [
-		  [ "Filler", "#"],
+		  [ "FUCK", "#"],
 		  [ "Filler", "#"],
 		  [ "Filler", "#"],
 		  [ "Filler", "#"],
