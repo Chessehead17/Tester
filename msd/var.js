@@ -1,6 +1,6 @@
 //TODO: have username listed here as well
 
-var music = [
+var dick = [
 	[ "Filler",
 	  [
 		  [ "Filler", "#"],

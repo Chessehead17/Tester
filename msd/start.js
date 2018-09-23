@@ -71,7 +71,7 @@ function search(query)
 	{
 		case "-a":
 		query = query.substr(query.indexOf(' ')+1);
-		window.location = "https://www.amazon.ca/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=" + query;
+		window.location = "https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=" + query;
 		break;
 
 		case "-y":
@@ -125,7 +125,7 @@ function search(query)
 		break;
 
 		default:
-		window.location="https://www.google.ca/search?q=" + query;
+		window.location="https://www.google.com/search?q=" + query;
 	}
 }
 
@@ -148,7 +148,7 @@ function GenMain(mId, links)
 
 window.onload=function()
 {
-	GenMain("main2", music);
+	GenMain("main2", dick);
 	GenMain("main3", favs);
 	GenMain("main4", prog);
 
